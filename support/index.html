@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telphone=no, email=no, address=no">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="MobileOptimized" content="320">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true">
+	<meta name="browsermode" content="application">
+	<meta name="x5-page-mode" content="app">
+	<meta name="msapplication-tap-highlight" content="no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<title>iptv电视家 技术服务</title>
+</head>
+<body>
+	<div class="banxin">
+		<div class="app_logo center-block margin-bottom60" style="padding-top: 40px">
+			<img src="images/icon_120*120.png" width="80" height="80" alt>
+		</div>
+		
+		<div class="desp">
+			<p style="font-size: 20px; padding-bottom: 10px;">产品介绍</p>
+			<div class="dsp margin-bottom60">
+				<section>
+					<p>一个免费的IPTV流媒体直播播放器，支持m3u/m3u8格式导入，能够实时观看直播电台并预览节目。具体操作方式简单便捷，仅需要将链接添加就可实现。</p>
+					<p>你可以用IPTV电视家来观看体育赛事、新闻时事、在线短剧，海量内容让你体验。低延迟高清播放器，让你的直播观看更精彩！</p>
+				</section>
+			</div>
+		</div>
+		<div>
+			<p style="font-size:20px; padding-bottom: 10px;">产品截图</p>
+			<div class="table-responsive">
+				<table class="table">
+					<tbody>
+						<tr>
+							<td>
+								<div style="">
+									<img src="images/screenshot3.jpg">
+								</div>
+							</td>
+							<td>
+								<div style="">
+									<img src="images/screenshot2.jpg">
+								</div>
+							</td>
+							<td>
+								<div style="">
+									<img src="images/screenshot1.jpg">
+								</div>
+							</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="footer" style="text-align: center; background: #fff;">
+			Copyright © ywvolt.inc 技术支持：
+			<a href="mailto:tottixc912@hotmail.com" style="color: rgb(0, 128, 214);">tottixc912@hotmail.com</a>
+		</div>
+		<div style="height: 40px;">
+		</div>
+	</div>
+	<div class="wxtip" id="JweixinTip">
+		<span class="wxtip-icon"></span>
+		<p class="wxtip-txt">Click on the upper right corner<br>
+		Choose to open in other browsers</p>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+ <script type="text/javascript">
+    function fun(a) {
+        a.onclick = function(e) {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                window.event ? window.event.returnValue = false : e.preventDefault();
+                document.getElementById('JweixinTip').style.display = 'block';
+                document.getElementById('JweixinTip').onclick = function() {
+                    this.style.display = 'none';
+                }
+                return true;
+            } else {
+
+            }
+        }
+    }
+    if (document.getElementById("wx_btn1")) {
+        fun(document.getElementById("wx_btn1"));
+    }
+    if (document.getElementById("wx_btn2")) {
+        fun(document.getElementById("wx_btn2"));
+    }
+
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bd127f03a0fb66b134fe06b676f0dfc' type='text/javascript'%3E%3C/script%3E"));
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb38f059c148ad1aa4d0fc03a170a5561' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</body>
+</html>
